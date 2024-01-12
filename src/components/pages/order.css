@@ -1,0 +1,43 @@
+.order-container{
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center ;
+}
+
+.order-card{
+    width: 200px;
+    background-color: beige;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    max-width: 200px;
+    margin: 20px 0;
+    padding: 10px 10px;
+}
+.order-card h2{
+   font-size: 1rem;
+   font-weight: bolder;
+}
+.order-card p{
+    font-size: 0.8rem;
+    font-weight: bolder;
+ }
+
+ .order-card img{
+    width: 200px;
+ }
+ .order-card-container{
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 800px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    
+    gap: 20px;
+ }
